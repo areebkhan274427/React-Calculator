@@ -10,7 +10,6 @@ function Calculator() {
 
 
     function validateNumber(num1,num2) {
-        console.log(typeof num1);
         // Check if the string is empty
         if (!num1.trim() || !num2.trim() ) {
           return false;
